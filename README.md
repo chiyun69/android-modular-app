@@ -4,8 +4,8 @@ Scalable Android application architecture using Kotlin and Jetpack Compose with 
 
 ## Project Structure Overview
 The architecture will consist of:
-- Host App: Main application container that aggregates feature modules
-- Feature Modules: Separate repositories of independent modules for Dashboard, Services, and Profile
+- Host App (android-modular-app): Main application container that aggregates feature modules
+- Feature Modules (eg. profile): Separate repositories of independent modules for Dashboard, Services, and Profile
 - Version Catalog: Centralized dependency management via libs.versions.toml
 
 
